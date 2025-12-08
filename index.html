@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Barbearia Mestre da Navalha - Estilo e Tradição</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">MESTRE<span style="color:var(--primary-color)">NAVALHA</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Agendar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <!-- Elemento Dinâmico via JS -->
+            <div id="status-loja" class="status-badge">Verificando horário...</div>
+
+            <h1>Corte Clássico, Estilo Moderno</h1>
+            <p style="margin-bottom: 30px; color: #ccc;">A melhor experiência de barbearia da cidade. Cerveja gelada e
+                toalha quente.</p>
+            <a href="#contato" class="btn">Agendar Horário</a>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2 style="text-align: center;">Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="card">
+                    <i class="fas fa-cut"></i>
+                    <h3>Corte de Cabelo</h3>
+                    <p>Tesoura ou máquina, degrade perfeito e acabamento na navalha.</p>
+                    <p style="color: var(--primary-color); margin-top: 10px;">R$ 45,00</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Barba Terapia</h3>
+                    <p>Toalha quente, massagem facial e hidratação dos fios.</p>
+                    <p style="color: var(--primary-color); margin-top: 10px;">R$ 35,00</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-wine-glass-alt"></i>
+                    <h3>Dia do Noivo</h3>
+                    <p>Pacote completo para o grande dia com bebidas inclusas.</p>
+                    <p style="color: var(--primary-color); margin-top: 10px;">Sob Consulta</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 style="text-align: center;">Faça seu Agendamento</h2>
+            <form id="agendamentoForm">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" required placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">WhatsApp</label>
+                    <input type="tel" id="telefone" required placeholder="(00) 00000-0000">
+                </div>
+                <div class="form-group">
+                    <label for="servico">Serviço</label>
+                    <select id="servico">
+                        <option value="Corte">Corte de Cabelo</option>
+                        <option value="Barba">Barba</option>
+                        <option value="Completo">Cabelo + Barba</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Solicitar Agendamento</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: black; padding: 20px; text-align: center; font-size: 0.8rem; color: #666;">
+        <p>&copy; 2025 Barbearia Mestre da Navalha. Desenvolvido para Entrega Acadêmica.</p>
+    </footer>
+
+    <!-- Botão WhatsApp Flutuante -->
+    <a href="https://wa.me/5511999999999" class="whatsapp-float" target="_blank" aria-label="Contato via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
