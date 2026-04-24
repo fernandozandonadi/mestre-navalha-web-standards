@@ -63,7 +63,7 @@ Implementação manual de um botão de ação flutuante (`position: fixed`) util
 
 ### Opção 1: Link Direto
 Acesse o projeto rodando online através do GitHub Pages:
-👉 https://fernandoheimrik.github.io/mestre-navalha-web-standards/
+👉 https://fernandozandonadi.github.io/mestre-navalha-web-standards/
 
 ### Opção 2: Rodar Localmente
 Clone este repositório:
